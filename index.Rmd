@@ -1,0 +1,41 @@
+--- 
+title: "Guitar bookdown"
+author: "大鹏"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+description: "This is a guitar book with my favorite songs."
+#cover-image: images/cover.jpg
+---
+
+\mychords
+
+# 最真的梦
+
+最真的梦，就是把吉他谱跟R作图弄到一起。
+
+啥？弄到一起有什么用？
+
+呃......容我清清脑子想一想......
+
+```{r, echo=FALSE}
+ z <- 2 * volcano        # Exaggerate the relief
+ x <- 10 * (1:nrow(z))   # 10 meter spacing (S to N)
+ y <- 10 * (1:ncol(z))   # 10 meter spacing (E to W)
+ persp(x, y, z, theta = 120, phi = 15, scale = FALSE, axes = FALSE)
+```
+
+
+(前奏)\chords{{\Cm} {\Amfive} {\Cm} {\Gm} {\Dm}{\Am}{\Bb}{\Cseven}} 
+
+ 只有在\F 夜深
+ 
+ 
+ 我和你\upchord{\Gm}才能　敞开灵\upchord{\Dm}魂　去释放天\upchord{\Am}真 \qquad \upchord{\Cm }
+
+ 把温柔\upchord{\F }的吻　在夜半\upchord{\Gm}时分　化成歌\upchord{\Dm}声　\upchord{\Am}依偎你心\upchord{\GM}门
+ 
+ 我祈求\upchord{\Cm }星辰　月儿来\upchord{\Dm}作证　用尽一\upchord{\Am}生　也愿意去\upchord{\Em}等
+ 
+ 终会有\upchord{\Am}一天　把心愿\upchord{\Dm}完成　带着你\upchord{\F }飞奔\upchord{\GM }找永\upchord{\Cm }恒 \qquad \upchord{\Csthree} \qquad \upchord{\Cthree}    
+
+
