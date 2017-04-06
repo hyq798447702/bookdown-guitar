@@ -4,6 +4,7 @@ bookdown::pdf_book:
     before_body: latex/before_body.tex
     after_body: latex/after_body.tex
   keep_tex: yes
+  dev: "cairo_pdf"
   latex_engine: xelatex
   template: latex/template.tex
   pandoc_args: --chapters
@@ -13,11 +14,11 @@ bookdown::gitbook:
     toc:
       collapse: none
       before: |
-        <li><a href="./">中文书示例</a></li>
+        <li><a href="http://dapengde.com">大鹏志</a></li>
       after: |
         <li><a href="https://bookdown.org" target="blank">本书由 bookdown 强力驱动</a></li>
     download: [pdf, epub]
-    edit: https://github.com/dapengde/bdguitar/edit/master/%s
+    edit: https://github.com/dapengde/bookdown-guitar/edit/master/%s
     sharing:
       github: yes
-      facebook: no
+      facebook: yes

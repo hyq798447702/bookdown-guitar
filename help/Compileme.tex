@@ -1,61 +1,20 @@
-\usepackage{booktabs}
-\usepackage{longtable}
+% Downloaded from: https://www.ctan.org/tex-archive/graphics/gchords
+% Modified by dapeng (http://dapengde.com)
+% Date: 2013/04/01 
 
-\usepackage{framed,color}
-\definecolor{shadecolor}{RGB}{248,248,248}
+\XeTeXinputencoding "GB18030"		% 设置中文解码。每个子文档的开头都必须设置。
+\documentclass[12pt]{article}
 
-\renewcommand{\textfraction}{0.05}
-\renewcommand{\topfraction}{0.8}
-\renewcommand{\bottomfraction}{0.8}
-\renewcommand{\floatpagefraction}{0.75}
-
-\let\oldhref\href
-\renewcommand{\href}[2]{#2\footnote{\url{#1}}}
-
-\makeatletter
-\newenvironment{kframe}{%
-\medskip{}
-\setlength{\fboxsep}{.8em}
- \def\at@end@of@kframe{}%
- \ifinner\ifhmode%
-  \def\at@end@of@kframe{\end{minipage}}%
-  \begin{minipage}{\columnwidth}%
- \fi\fi%
- \def\FrameCommand##1{\hskip\@totalleftmargin \hskip-\fboxsep
- \colorbox{shadecolor}{##1}\hskip-\fboxsep
-     % There is no \\@totalrightmargin, so:
-     \hskip-\linewidth \hskip-\@totalleftmargin \hskip\columnwidth}%
- \MakeFramed {\advance\hsize-\width
-   \@totalleftmargin\z@ \linewidth\hsize
-   \@setminipage}}%
- {\par\unskip\endMakeFramed%
- \at@end@of@kframe}
-\makeatother
-
-
-\usepackage{makeidx}
-\makeindex
-
-\urlstyle{tt}
-
-\usepackage{amsthm}
-\makeatletter
-\def\thm@space@setup{%
-  \thm@preskip=8pt plus 2pt minus 4pt
-  \thm@postskip=\thm@preskip
-}
-\makeatother
-
-
+\usepackage{xltxtra}			% 支持\XeTeX。
 \usepackage{xunicode}
-\usepackage{fontspec}
-\defaultfontfeatures{Mapping=tex-text}
-\setmainfont{Microsoft YaHei}
+\usepackage{fontspec}			% 支持中文破折号（把--转成m dash）。
+\defaultfontfeatures{Mapping=tex-text} 	% -
+\setmainfont{Microsoft YaHei}		% 更改默认字体。cmd下用"fc-list :lang=zh"查已有的中文字体。
 
 
-%\usepackage{geometry}
-%\setlength{\parindent}{0pt}
-%\setlength{\textwidth}{7.2in}
+\usepackage{geometry}
+\setlength{\parindent}{0pt}
+\setlength{\textwidth}{7.2in}
 
 \usepackage{gchords}
 
@@ -84,9 +43,9 @@
 \newcommand{\Bseven}{\chord{t}{x,f1p2,p4,f1p2,p4,f1p2,}{B7}}
 \newcommand{\BMseven}{\chord{t}{n,p2,p1,p2,n,p2}{B7}}
 \newcommand{\BsevenBasDs}{\chord{t}{x,x,p1,p2,n,p2}{B7/D\#}}
-\newcommand{\CM}{\chord{t}{n,p3,p2,n,p1,n}{C}}
 \newcommand{\CssevenLight}{\chord{t}{x,p4,p3,p4,p2,x}{C\#7}}
 \newcommand{\Csthree}{\chord{{4~}}{f1p1,f1p1,p3,p3,p3,f1p1}{$^\#$C}}
+\newcommand{\C}{\chord{t}{n,p3,p2,n,p1,n}{C}}
 \newcommand{\Cthree}{\chord{{3~}}{f1p1,f1p1,p3,p3,p3,f1p1}{C(3)}}
 \newcommand{\Cseven}{\chord{t}{n,p3,p2,p3,p1,n}{C7}}
 \newcommand{\Cm}{\chord{t}{f1p3,f1p3,p5,p5,p4,f1p3}{Cm}}
@@ -117,4 +76,13 @@
 \newcommand{\Gm}{\chord{{3~}}{f1p1,p3,p3,f1p1,f1p1,f1p1}{Gm}}
 \newcommand{\Gsm}{\chord{{4~}}{f1p1,p3,p3,f1p1,f1p1,f1p1}{\#Gm}}
 
-\frontmatter
+\begin{document}
+
+\mychords
+
+\pagestyle{empty}
+
+\include{Example}
+
+\end{document}
+
