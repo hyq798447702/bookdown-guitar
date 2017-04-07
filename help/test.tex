@@ -1,0 +1,138 @@
+%Test file for TeXChord.  (C) 1993 by Joel M. Hoffman
+
+\font\titfont=cmr17\narrower % Some fonts
+\font\capfont=cmbx12 scaled \magstep1
+\def\mycaption#1{\bigskip{\capfont #1}\nobreak}
+\long\def\boxit#1{\vbox{\hrule\hbox{\vrule\kern3pt
+ \vbox{\kern3pt#1\kern3pt}\kern3pt\vrule}\hrule}}
+\long\def\dboxit#1{\boxit{\vbox{\boxit{\hbox{#1}}}}}
+
+
+
+\input texchord		% Include the macros.
+\textchords\smallchords	% Put chords in the text; use small chords.
+
+\centerline{\dboxit{\vbox{\hbox{\titfont \TeX Chord Demonstration}
+\hbox{Copyright 1993 by Joel M.\ Hoffman}}}}
+\bigskip
+\bigskip\hrule\bigskip\bigskip
+
+This is the size of a small C-chord:  \Cchord.
+\bigchords 
+This is the size of a big C-chord: \Cchord.
+
+\bigskip\hrule\bigskip\bigskip
+
+
+\raisedchords\advance\baselineskip by 50pt
+\def\dummytext{\leavevmode\kern.6 true in}
+
+\bigchords
+
+\mycaption{Major chords:}
+
+\Achord \dummytext
+\Bchord \dummytext
+\Cchord \dummytext
+\Dchord \dummytext
+\Echord \dummytext
+\Fchord \dummytext
+\Gchord \dummytext
+
+\Ashchord \dummytext
+\Bshchord \dummytext
+\Cshchord \dummytext
+\Dshchord \dummytext
+\Eshchord \dummytext
+\Fshchord \dummytext
+\Gshchord \dummytext
+
+\Afchord \dummytext
+\Bfchord \dummytext
+\Cfchord \dummytext
+\Dfchord \dummytext
+\Efchord \dummytext
+\Ffchord \dummytext
+\Gfchord \dummytext
+
+\mycaption{Minor chords:}
+
+\achord \dummytext
+\bchord \dummytext
+\cchord \dummytext
+\dchord \dummytext
+\echord \dummytext
+\fchord \dummytext
+\gchord \dummytext
+
+\ashchord \dummytext
+\bshchord \dummytext
+\cshchord \dummytext
+\dshchord \dummytext
+\eshchord \dummytext
+\fshchord \dummytext
+\gshchord \dummytext
+
+\afchord \dummytext
+\bfchord \dummytext
+\cfchord \dummytext
+\dfchord \dummytext
+\efchord \dummytext
+\ffchord \dummytext
+\gfchord \dummytext
+
+\mycaption{Seventh chords (Major):}
+
+\Cschord \dummytext
+\Dschord \dummytext
+\Eschord \dummytext
+\Fschord \dummytext
+\Gschord \dummytext
+\Aschord \dummytext
+\Bschord \dummytext
+
+\Cfschord \dummytext
+\Dfschord \dummytext
+\Efschord \dummytext
+\Ffschord \dummytext
+\Gfschord \dummytext
+\Afschord \dummytext
+\Bfschord \dummytext
+
+\Cshschord \dummytext
+\Dshschord \dummytext
+\Eshschord \dummytext
+\Fshschord \dummytext
+\Gshschord \dummytext
+\Ashschord \dummytext
+\Bshschord \dummytext
+
+\mycaption{Seventh chords (Minor):}
+
+
+\aschord \dummytext
+\bschord \dummytext
+\cschord \dummytext
+\dschord \dummytext
+\eschord \dummytext
+\fschord \dummytext
+\gschord \dummytext
+
+\afschord \dummytext
+\bfschord \dummytext
+\cfschord \dummytext
+\dfschord \dummytext
+\efschord \dummytext
+\ffschord \dummytext
+\gfschord \dummytext
+
+\ashschord \dummytext
+\bshschord \dummytext
+\cshschord \dummytext
+\dshschord \dummytext
+\eshschord \dummytext
+\fshschord \dummytext
+\gshschord \dummytext
+
+
+\end
