@@ -5,27 +5,27 @@
 
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Guitar bookdown</title>
+  <title>GuitaR Bookdown</title>
   <meta name="description" content="This is a collection of my favorite songs with guitar chords, produced by bookdown.">
-  <meta name="generator" content="bookdown 0.3.10 and GitBook 2.6.7">
+  <meta name="generator" content="bookdown 0.3.17 and GitBook 2.6.7">
 
-  <meta property="og:title" content="Guitar bookdown" />
+  <meta property="og:title" content="GuitaR Bookdown" />
   <meta property="og:type" content="book" />
   <meta property="og:url" content="https://bookdown.org/baydap/bdguitar/" />
-  <meta property="og:image" content="https://bookdown.org/baydap/bdguitar/images/cover.jpg" />
+  <meta property="og:image" content="https://bookdown.org/baydap/bdguitar/images/cover.png" />
   <meta property="og:description" content="This is a collection of my favorite songs with guitar chords, produced by bookdown." />
   <meta name="github-repo" content="dapengde/boookdown-guitar" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Guitar bookdown" />
+  <meta name="twitter:title" content="GuitaR Bookdown" />
   
   <meta name="twitter:description" content="This is a collection of my favorite songs with guitar chords, produced by bookdown." />
-  <meta name="twitter:image" content="https://bookdown.org/baydap/bdguitar/images/cover.jpg" />
+  <meta name="twitter:image" content="https://bookdown.org/baydap/bdguitar/images/cover.png" />
 
 <meta name="author" content="大鹏">
 
 
-<meta name="date" content="2017-04-07">
+<meta name="date" content="2017-05-05">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -33,7 +33,7 @@
   
   
 
-<link rel="next" href="intro.html">
+<link rel="next" href="method.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -104,13 +104,17 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>前言</a></li>
-<li class="part"><span><b>I 用R bookdown记吉他谱</b></span></li>
-<li class="chapter" data-level="" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i>简介</a></li>
-<li class="part"><span><b>II 最真的梦</b></span></li>
+<li class="chapter" data-level="" data-path="method.html"><a href="method.html"><i class="fa fa-check"></i>用R bookdown记吉他谱</a><ul>
+<li class="chapter" data-level="" data-path="method.html"><a href="method.html#intro"><i class="fa fa-check"></i>简介</a></li>
+</ul></li>
+<li class="part"><span><b>I 最真的梦</b></span></li>
 <li class="chapter" data-level="" data-path="cd.html"><a href="cd.html"><i class="fa fa-check"></i>成都</a></li>
 <li class="chapter" data-level="" data-path="ybgs.html"><a href="ybgs.html"><i class="fa fa-check"></i>夜半歌声</a></li>
+<li class="chapter" data-level="" data-path="sqxy.html"><a href="sqxy.html"><i class="fa fa-check"></i>深情相拥</a></li>
+<li class="chapter" data-level="" data-path="ybzsqln.html"><a href="ybzsqln.html"><i class="fa fa-check"></i>一辈子失去了你</a></li>
 <li class="chapter" data-level="" data-path="hallelujah.html"><a href="hallelujah.html"><i class="fa fa-check"></i>Hallelujah</a></li>
-<li class="chapter" data-level="" data-path="appendix.html"><a href="appendix.html"><i class="fa fa-check"></i>附录：常用和弦指法图</a></li>
+<li class="appendix"><span><b>Appendix</b></span></li>
+<li class="chapter" data-level="" data-path="toolbox.html"><a href="toolbox.html"><i class="fa fa-check"></i>常用和弦指法图</a></li>
 <li class="divider"></li>
 <li><a href="https://bookdown.org" target="blank">本书由 bookdown 强力驱动</a></li>
 
@@ -123,7 +127,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
       <div class="body-inner">
         <div class="book-header" role="navigation">
           <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Guitar bookdown</a>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">GuitaR Bookdown</a>
           </h1>
         </div>
 
@@ -132,37 +136,31 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 
             <section class="normal" id="section-">
 <div id="header">
-<h1 class="title">Guitar bookdown</h1>
+<h1 class="title">GuitaR Bookdown</h1>
 <h4 class="author"><em>大鹏</em></h4>
-<h4 class="date"><em>2017-04-07</em></h4>
+<h4 class="date"><em>2017-05-05</em></h4>
 </div>
 <div id="front" class="section level1 unnumbered">
 <h1>前言</h1>
 <p>最真的梦，就是用R语言的bookdown把R代码、作图、数据分析和吉他谱弄到一起。</p>
 <p>啥？弄到一起有什么用？</p>
 <p>呃……容我清清脑子想一想……</p>
-<blockquote>
-<p>— 大鹏</p>
-</blockquote>
+<p>越过下面这座山丘，却发现无人等候……</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"> <span class="kw">persp</span>(x, y, z, <span class="dt">theta =</span> <span class="dv">120</span>, <span class="dt">phi =</span> <span class="dv">15</span>, <span class="dt">scale =</span> <span class="ot">FALSE</span>, 
        <span class="dt">axes =</span> <span class="ot">FALSE</span>)</code></pre></div>
 <p><img src="bdguitar_files/figure-html/unnamed-chunk-1-1.png" width="60%" /></p>
-<p>终会有一天　把心愿完成　</p>
-<p>带着你飞奔找永恒</p>
+<p>终会有一天　把心愿完成　带着你飞奔找永恒</p>
 <p><span class="math display">\[\int_0^\infty e^{-x^2} dx=\frac{\sqrt{\pi}}{2}\]</span></p>
 <p>本书的吉他谱，在网页上看不见，只有点击下载pdf才能看见哦。</p>
 <p></p>
 </div>
-
-
-
             </section>
 
           </div>
         </div>
       </div>
 
-<a href="intro.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="method.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

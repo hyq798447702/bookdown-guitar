@@ -1,3 +1,7 @@
+rsconnect/
+
+.Rproj.user/
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db

@@ -22,3 +22,4 @@ bookdown::gitbook:
     sharing:
       github: yes
       facebook: yes
+bookdown::epub_book: default

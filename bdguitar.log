@@ -1,7 +1,7 @@
-This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2017.2.26)  7 APR 2017 14:35
+This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2017.2.26)  5 MAY 2017 17:06
 entering extended mode
 **bdguitar.tex
-(D:\googledrive\2017_bdguitar\bdguitar.tex
+(D:\googledrive\a1\bookdown-guitar\bdguitar.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for loaded.
 ("D:\Program Files\CTEX\MiKTeX\tex\latex\ctex\ctexbook.cls"
@@ -959,49 +959,49 @@ Package: gchords
 \c@corollary=\count307
 \c@proposition=\count308
 \c@example=\count309
-(D:\googledrive\2017_bdguitar\bdguitar.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 294.
-LaTeX Font Info:    ... okay on input line 294.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 294.
-LaTeX Font Info:    ... okay on input line 294.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 294.
-LaTeX Font Info:    ... okay on input line 294.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 294.
-LaTeX Font Info:    ... okay on input line 294.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 294.
-LaTeX Font Info:    ... okay on input line 294.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 294.
-LaTeX Font Info:    ... okay on input line 294.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 294.
-LaTeX Font Info:    ... okay on input line 294.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 294.
-LaTeX Font Info:    ... okay on input line 294.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 294.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 294.
+(D:\googledrive\a1\bookdown-guitar\bdguitar.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 297.
+LaTeX Font Info:    ... okay on input line 297.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 297.
+LaTeX Font Info:    ... okay on input line 297.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 297.
+LaTeX Font Info:    ... okay on input line 297.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 297.
+LaTeX Font Info:    ... okay on input line 297.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 297.
+LaTeX Font Info:    ... okay on input line 297.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 297.
+LaTeX Font Info:    ... okay on input line 297.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 297.
+LaTeX Font Info:    ... okay on input line 297.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 297.
+LaTeX Font Info:    ... okay on input line 297.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 297.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 297.
 ("D:\Program Files\CTEX\MiKTeX\tex\latex\tipa\t3cmr.fd"
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 294.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 294.
-LaTeX Font Info:    ... okay on input line 294.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 294.
-LaTeX Font Info:    ... okay on input line 294.
+LaTeX Font Info:    ... okay on input line 297.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 297.
+LaTeX Font Info:    ... okay on input line 297.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 297.
+LaTeX Font Info:    ... okay on input line 297.
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: b5paper
+* paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: twoside 
-* h-part:(L,W,R)=(99.58464pt, 330.05197pt, 71.13188pt)
-* v-part:(T,H,B)=(71.13188pt, 569.05513pt, 71.13188pt)
-* \paperwidth=500.7685pt
-* \paperheight=711.3189pt
-* \textwidth=330.05197pt
-* \textheight=569.05513pt
-* \oddsidemargin=27.31465pt
-* \evensidemargin=-1.1381pt
-* \topmargin=-31.2056pt
+* h-part:(L,W,R)=(42.67912pt, 512.14963pt, 42.67912pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=512.14963pt
+* \textheight=731.23584pt
+* \oddsidemargin=-29.59087pt
+* \evensidemargin=-29.59087pt
+* \topmargin=-45.43198pt
 * \headheight=12.0pt
 * \headsep=18.06749pt
 * \topskip=10.0pt
@@ -1020,7 +1020,7 @@ LaTeX Font Info:    ... okay on input line 294.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box45
-Package hyperref Info: Link coloring OFF on input line 294.
+Package hyperref Info: Link coloring OFF on input line 297.
 ("D:\Program Files\CTEX\MiKTeX\tex\latex\hyperref\nameref.sty"
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 ("D:\Program Files\CTEX\MiKTeX\tex\generic\oberdiek\gettitlestring.sty"
@@ -1028,43 +1028,43 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count310
 )
-LaTeX Info: Redefining \ref on input line 294.
-LaTeX Info: Redefining \pageref on input line 294.
-LaTeX Info: Redefining \nameref on input line 294.
-(D:\googledrive\2017_bdguitar\bdguitar.out) (D:\googledrive\2017_bdguitar\bdgui
-tar.out)
+LaTeX Info: Redefining \ref on input line 297.
+LaTeX Info: Redefining \pageref on input line 297.
+LaTeX Info: Redefining \nameref on input line 297.
+(D:\googledrive\a1\bookdown-guitar\bdguitar.out) (D:\googledrive\a1\bookdown-gu
+itar\bdguitar.out)
 \@outlinefile=\write5
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 296.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 299.
 
 ("D:\Program Files\CTEX\MiKTeX\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 296.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 299.
 
 ("D:\Program Files\CTEX\MiKTeX\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 296
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 299
 .
 ("D:\Program Files\CTEX\MiKTeX\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 296
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 299
 .
 ("D:\Program Files\CTEX\MiKTeX\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12.05> on input line 296.
+(Font)              <12.05> on input line 299.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 296.
+(Font)              <8> on input line 299.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 296.
-LaTeX Font Info:    Try loading font information for U+msa on input line 296.
+(Font)              <6> on input line 299.
+LaTeX Font Info:    Try loading font information for U+msa on input line 299.
 ("D:\Program Files\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 296.
+LaTeX Font Info:    Try loading font information for U+msb on input line 299.
 ("D:\Program Files\CTEX\MiKTeX\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
@@ -1114,7 +1114,7 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 . 
 . This font family consists of the following shapes:
 .................................................
-(D:\googledrive\2017_bdguitar\bdguitar.toc
+(D:\googledrive\a1\bookdown-guitar\bdguitar.toc
 .................................................
 . fontspec info: "no-scripts"
 . 
@@ -1128,6 +1128,25 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 . 
 . This font family consists of the following shapes:
 .................................................
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font SimSun does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'SimSun(0)' created for font 'SimSun' with options
+. [Mapping=tex-text,BoldFont={SimHei},ItalicFont={[SIMKAI.TTF]}].
+. 
+. This font family consists of the following shapes:
+.................................................
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.54> on input line 3.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 3.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 3.
 .................................................
 . fontspec info: "no-scripts"
 . 
@@ -1146,44 +1165,21 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 [2
 
 ]
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font SimSun does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'SimSun(0)' created for font 'SimSun' with options
-. [Mapping=tex-text,BoldFont={SimHei},ItalicFont={[SIMKAI.TTF]}].
-. 
-. This font family consists of the following shapes:
-.................................................
-LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 322
+LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 323
 .
 ("D:\Program Files\CTEX\MiKTeX\tex\latex\euenc\eu1lmtt.fd"
 File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `EU1/lmtt/bx/n' in size <10.54> not available
-(Font)              Font shape `EU1/lmtt/b/n' tried instead on input line 323.
+(Font)              Font shape `EU1/lmtt/b/n' tried instead on input line 324.
 File: bdguitar_files/figure-latex/unnamed-chunk-1-1.pdf Graphic file (type QTm)
 
-<use  "bdguitar_files/figure-latex/unnamed-chunk-1-1.pdf" >
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.54> on input line 330.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 330.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 330.
-
-Underfull \vbox (badness 2538) has occurred while \output is active []
-
-[3
+<use  "bdguitar_files/figure-latex/unnamed-chunk-1-1.pdf" > [3
 
 ]
 
 LaTeX Font Warning: Font shape `EU1/MicrosoftYaHei(0)/m/sl' undefined
-(Font)              using `EU1/MicrosoftYaHei(0)/m/n' instead on input line 338
+(Font)              using `EU1/MicrosoftYaHei(0)/m/n' instead on input line 337
 .
 
 .................................................
@@ -1201,16 +1197,28 @@ LaTeX Font Warning: Font shape `EU1/MicrosoftYaHei(0)/m/sl' undefined
 .................................................
 
 LaTeX Font Warning: Font shape `EU1/SimSun(0)/m/sl' undefined
-(Font)              using `EU1/SimSun(0)/m/n' instead on input line 338.
+(Font)              using `EU1/SimSun(0)/m/n' instead on input line 337.
 
-[4] [1
-
+[4
 
 ]
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font SimSun does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'SimSun(0)' created for font 'SimSun' with options
+. [Mapping=tex-text,BoldFont={SimHei},ItalicFont={[SIMKAI.TTF]}].
+. 
+. This font family consists of the following shapes:
+.................................................
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7.53> on input line 350.
 File: images/chengdu1-.jpg Graphic file (type QTm)
-<use  "images/chengdu1-.jpg" > [2
+<use  "images/chengdu1-.jpg" > [1
 
 ]
 .................................................
@@ -1240,52 +1248,47 @@ File: images/chengdu1-.jpg Graphic file (type QTm)
 . * 'bold italic' with NFSS spec.:
 . <->"[SIMFANG.TTF]/I/ICU:mapping=tex-text;"
 .................................................
-[3] [4] [5
+[2] [3
+
+] [4
+
+] [5
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1960) has occurred while \output is active []
 
 [6
 
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+] [7]
+Underfull \vbox (badness 3302) has occurred while \output is active []
 
-[7] [8]
-Overfull \hbox (26.04337pt too wide) detected at line 452
-[]
- []
+[8
 
-[9
-
-]
+] [9]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [10
 
-] [11] [12]
-Overfull \hbox (56.5208pt too wide) detected at line 542
-[]
- []
+] [11] [12] [13
 
-[13
 
-] [14]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 556.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 556.
-(D:\googledrive\2017_bdguitar\bdguitar.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 556.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 556.
+] (D:\googledrive\a1\bookdown-guitar\bdguitar.ind)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 607.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 607.
+(D:\googledrive\a1\bookdown-guitar\bdguitar.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 607.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 607.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 22622 strings out of 430478
- 425493 string characters out of 3191152
- 501683 words of memory out of 3000000
- 25380 multiletter control sequences out of 15000+200000
- 32287 words of font info for 92 fonts, out of 3000000 for 9000
+ 22633 strings out of 430478
+ 425796 string characters out of 3191152
+ 518767 words of memory out of 3000000
+ 25383 multiletter control sequences out of 15000+200000
+ 32327 words of font info for 97 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 57i,10n,37p,840b,383s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 57i,10n,38p,840b,463s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on bdguitar.pdf (18 pages).
+Output written on bdguitar.pdf (17 pages).
