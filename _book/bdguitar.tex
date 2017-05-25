@@ -109,6 +109,7 @@
 \usepackage{booktabs}
 \usepackage{longtable}
 
+
 \usepackage{framed,color}
 \definecolor{shadecolor}{RGB}{248,248,248}
 
@@ -281,7 +282,7 @@
 
 \title{GuitaR Bookdown}
 \author{大鹏}
-\date{2017-05-05}
+\date{2017-05-25}
 
 \usepackage{amsthm}
 \newtheorem{theorem}{Theorem}[chapter]
@@ -295,7 +296,13 @@
 \theoremstyle{remark}
 \newtheorem*{remark}{Remark}
 \begin{document}
-\maketitle
+%%\maketitle
+%
+\begin{titlepage}
+    \centering
+    \includegraphics[width=\textwidth]{images/cover.jpg}
+\end{titlepage}
+
 
 \thispagestyle{empty}
 
@@ -413,8 +420,6 @@ bookdown 的壳，\(\LaTeX\)的核。上面那句歌词，录入的文字是这�
 
 呃\ldots{}\ldots{}这是个好问题\ldots{}\ldots{}容我清清脑子想一想\ldots{}\ldots{}听说数学领域很多理论在提出时都没啥用，后来都用上了，除了数论\ldots{}\ldots{}我不会运气跟数论一样好吧\ldots{}\ldots{}
 
-\part{最真的梦}\label{true-dream}
-
 \chapter*{成都}\label{cd}
 \addcontentsline{toc}{chapter}{成都}
 
@@ -433,77 +438,6 @@ bookdown 的壳，\(\LaTeX\)的核。上面那句歌词，录入的文字是这�
 直\Em 到所有的\Am 灯都熄灭\F 了也\GM 不停\CM 留
 
 你会\F 挽着\GM 我的衣\CM 袖　我会\F 把手\GM 揣进裤\CM 兜　走\Dm 到玉林路的尽头　坐\GM 在(走过)小酒馆的门口
-
-\chapter*{夜半歌声}\label{ybgs}
-\addcontentsline{toc}{chapter}{夜半歌声}
-
-(前奏)\chords{{\iCm} {\iAmfive} {\iCm} {\iGm} {\iDm}{\iAm}{\iBb}{\iCseven}}
-
-只有在\F 夜深　我和你\Gm 才能　敞开灵\Dm 魂　去释放天\Am 真 \qquad \Cm  
-
-把温柔\F  的吻　在夜半\Gm 时分　化成歌\Dm 声　\Am 依偎你心\GM 门
-
-我祈求\Cm  星辰　月儿来\Dm 作证　用尽一\Am 生　也愿意去\Em 等
-
-终会有\Am 一天　把心愿\Dm 完成　带着你\F  飞奔\GM  找永\Cm  恒
-\qquad \Csthree  \qquad \Cthree     
-
-\chapter*{深情相拥}\label{sqxy}
-\addcontentsline{toc}{chapter}{深情相拥}
-
-(前奏)\chords{{\iCm} {\iAmfive} {\iCm} {\iGm} {\iDm}{\iAm}{\iBb}{\iCseven}}
-
-作词: 黄郁/莫如升 作曲: 张国荣 原唱: 张国荣 辛晓琪
-
-(前奏)\chords{{\iE} {\iA} {\iE} {\iBM}{\iE}{\iA}{\iA}{\iBMseven}}
-
-\E 不愿放开你\A 的------\BM 手　\A 此刻可否停\E 留
-爱的\E 乐章还在心\Am 中弹奏　今\E 夜怎能\BMseven 就此罢\E 休
-
-我的感\A 受　与你相\Gsm 同　不愿陪\A 月儿般滑\E 落
-对你的\A 心　有星辰\E 来为------\Csm 证　爱如风云翻\BMseven 涌
-
-\E  再次深情相\Gsm 拥　时\Csm 间这一刻停\BM 留
-千万\E 不要开口再\Am 对我说　爱\E 情只为\BMseven 今夜不\E 走
-
-既然\E  相信会有思\Am 念的忧　就让\E 你我俩\BMseven 长伴左\E 右
-
-(间奏)\chords{{\iGM} {\iE} {\iGM} {\iEseven}{\iGM}{\iAm}{\iE}{\iBMseven}{\iE}}
-
-\chapter*{一辈子失去了你}\label{ybzsqln}
-\addcontentsline{toc}{chapter}{一辈子失去了你}
-
-作词: 厉曼婷 作曲与原唱: 张国荣
-
-(前奏)\chords{{\iGthree} {\iCM} {\iD} {\iCM}}
-
-\Gthree 一辈子　失去了你
-
-\Gthree 夜的精灵遗忘爱的咒语 相爱的人从此两分 \Dseven 离 是命运
-\Bm 对有情人 \Am 不曾怜惜 \Dseven 风月惹不 \Gthree 起
-
-你任我憔 \Cm 悴 我任你枯 \Gm 萎 怎么也 \Cm 无法将天意挽 \Gthree 回
-你为我落 \Em 泪 更令我伤 \Bm 悲 放不开 \Em 刻骨 \E 铭心的滋 \A 味
-
-绵绵不 \Gthree 断的相思 \CM 化成这 \Am 一刻的心 \Em 碎 甜蜜往 \Am 事
-段段回 \Em 忆 只能在 \Am 梦中 \A 寻找和回 \D 味
-
-\Gthree 黑夜之中请你打开心扉 \Gthree 等待着我痴情的跟 \Dseven 随 若命运
-\Bm 对有情人 \Am 不愿怜惜 \Dseven 让爱来相 \Gthree 随
-
-(间奏)\chords{{\iGthree} {\iCm} {\iGthree} {\iCm}{\iEb}{\iCm}}
-
-你任我憔 \Cm 悴 我任你枯 \Gm 萎 怎么也 \Cm 无法将天意挽 \Gthree 回
-你为我落 \Em 泪 更令我伤 \Bm 悲 放不开 \Em 刻骨 \E 铭心的滋 \A 味
-
-绵绵不 \Gthree 断的相思 \CM 化成这 \Am 一刻的心 \Em 碎 甜蜜往 \Am 事
-段段回 \Em 忆 只能在 \Am 梦中 \A 寻找和回 \D 味
-
-\Gthree 黑夜之中请你打开心扉 \Gthree 等待着我痴情的跟 \Dseven 随 若命运
-\Bm 对有情人 \Am 不愿怜惜 \Dseven 让爱来相 \Gthree 随
-
-倘若天 \Bm 意注定要 \Am 你我分离 \D 让------ \Fs 爱------ \F 永------
-\A 相------ \Gthree 陪
 
 \chapter*{Hallelujah}\label{hallelujah}
 \addcontentsline{toc}{chapter}{Hallelujah}
@@ -578,6 +512,139 @@ It's not somebody Who's seen the light
 It's a cold and It's a broken Hallelujah
 
 Hallelujah, Hallelujah, Hallelujah, Hallelujah
+
+\chapter*{黄昏}\label{hh}
+\addcontentsline{toc}{chapter}{黄昏}
+
+主唱：罗文
+
+\begin{verbatim}
+                 F       G       C
+\end{verbatim}
+
+\Am 如果我能为你求得\Em 一点青春，\F 我会留在\GM 心中保\CM 存。
+
+纵然\Am 青丝如霜黄花飘落\Em 红颜已老，\Dm 只求心中还有一些\GM 纯真。
+
+\Am 日落西山天际一片\Em 暮色沉沉，\F 我俩就要\GM 走进黄\CM 昏。
+
+回首\Am 多少甜蜜几番哀愁\Em 起起落落，\Dm 始终不悔\GM 与你共度\CM 此生。
+
+\Am 山谷中已有\Em 点点灯火，\F 暮色就要\GM 渐渐昏\CM 沉，
+
+\Am 你和我也然\Em 笑泪满唇，\Dm 感叹年华竟是一无\GM 余剩。
+
+\Am 晚风中布满\Em 我的歌声，\F 道尽多少\GM 旧梦前\CM 尘。
+
+\Am 夜色中只看到\Em 彼此眼神，\Dm 我俩终会\GM 消失在那\Cm 黄昏。
+
+\chapter*{麦克}\label{mk}
+\addcontentsline{toc}{chapter}{麦克}
+
+词曲/制作人：高晓松
+
+前奏：Dm(5) Am(5) Dm(5) A(5)
+
+\Dm 你总爱穿上那件印着\Am 列农的衬衫
+总是\Gm 一天一天不厌其烦举起\Aseven 你的伞
+
+\Dm 你总爱坐在路边看着\Am 车来和人往
+总是\Gm 对着沉默的人们发出\Dm 些声响
+
+\Dm 麦克你曾经远远\CM 飘荡的生活象一\Gm 只塑料袋在飞\Dm 翔
+
+\Dm 麦克你曾经\CM 象一条船长满了\Gm 离离贝壳显得荒\Aseven 凉
+
+\Dm 麦克你再度\F 回到这城市\CM 可曾遇见旧日姑\F 娘
+头上\Gm 插着野花身上穿着嫁\Dm 妆
+
+间奏：Dm(5)Am(5)
+
+\Dm 你总爱摊开纸牌算那杯\Am 清水和女孩
+总是\Gm 一遍一遍不厌其烦想她们\Aseven 的未来
+
+\Dm 你总爱攥着一把冻得\Am 冰冷的钥匙
+总是\Gm 对着厚厚的墙壁转过\Dm 身发呆
+
+\Dm 麦克你曾经远远\CM 飘荡的生活象一\Gm 只塑料袋在飞\Dm 翔
+
+\Dm 麦克你曾经\CM 象一条船长满了\Gm 离离贝壳显得荒\Aseven 凉
+
+\Dm 麦克你再度\F 回到这城市\CM 可曾遇见旧日姑\F 娘
+头上\Gm 插着野花身上穿着嫁妆
+
+\chords{\iD \iGM \iA \iD \iD \iGM \iA }
+
+\chapter*{深情相拥}\label{sqxy}
+\addcontentsline{toc}{chapter}{深情相拥}
+
+(前奏)\chords{{\iCm} {\iAmfive} {\iCm} {\iGm} {\iDm}{\iAm}{\iBb}{\iCseven}}
+
+作词: 黄郁/莫如升 作曲: 张国荣 原唱: 张国荣 辛晓琪
+
+(前奏)\chords{{\iE} {\iA} {\iE} {\iBM}{\iE}{\iA}{\iA}{\iBMseven}}
+
+\E 不愿放开你\A 的------\BM 手　\A 此刻可否停\E 留
+爱的\E 乐章还在心\Am 中弹奏　今\E 夜怎能\BMseven 就此罢\E 休
+
+我的感\A 受　与你相\Gsm 同　不愿陪\A 月儿般滑\E 落
+对你的\A 心　有星辰\E 来为------\Csm 证　爱如风云翻\BMseven 涌
+
+\E  再次深情相\Gsm 拥　时\Csm 间这一刻停\BM 留
+千万\E 不要开口再\Am 对我说　爱\E 情只为\BMseven 今夜不\E 走
+
+既然\E  相信会有思\Am 念的忧　就让\E 你我俩\BMseven 长伴左\E 右
+
+(间奏)\chords{{\iGM} {\iE} {\iGM} {\iEseven}{\iGM}{\iAm}{\iE}{\iBMseven}{\iE}}
+
+\chapter*{夜半歌声}\label{ybgs}
+\addcontentsline{toc}{chapter}{夜半歌声}
+
+(前奏)\chords{{\iCm} {\iAmfive} {\iCm} {\iGm} {\iDm}{\iAm}{\iBb}{\iCseven}}
+
+只有在\F 夜深　我和你\Gm 才能　敞开灵\Dm 魂　去释放天\Am 真 \qquad \Cm  
+
+把温柔\F  的吻　在夜半\Gm 时分　化成歌\Dm 声　\Am 依偎你心\GM 门
+
+我祈求\Cm  星辰　月儿来\Dm 作证　用尽一\Am 生　也愿意去\Em 等
+
+终会有\Am 一天　把心愿\Dm 完成　带着你\F  飞奔\GM  找永\Cm  恒
+\qquad \Csthree  \qquad \Cthree     
+
+\chapter*{一辈子失去了你}\label{ybzsqln}
+\addcontentsline{toc}{chapter}{一辈子失去了你}
+
+作词: 厉曼婷 作曲与原唱: 张国荣
+
+(前奏)\chords{{\iGthree} {\iCM} {\iD} {\iCM}}
+
+\Gthree 一辈子　失去了你
+
+\Gthree 夜的精灵遗忘爱的咒语 相爱的人从此两分 \Dseven 离 是命运
+\Bm 对有情人 \Am 不曾怜惜 \Dseven 风月惹不 \Gthree 起
+
+你任我憔 \Cm 悴 我任你枯 \Gm 萎 怎么也 \Cm 无法将天意挽 \Gthree 回
+你为我落 \Em 泪 更令我伤 \Bm 悲 放不开 \Em 刻骨 \E 铭心的滋 \A 味
+
+绵绵不 \Gthree 断的相思 \CM 化成这 \Am 一刻的心 \Em 碎 甜蜜往 \Am 事
+段段回 \Em 忆 只能在 \Am 梦中 \A 寻找和回 \D 味
+
+\Gthree 黑夜之中请你打开心扉 \Gthree 等待着我痴情的跟 \Dseven 随 若命运
+\Bm 对有情人 \Am 不愿怜惜 \Dseven 让爱来相 \Gthree 随
+
+(间奏)\chords{{\iGthree} {\iCm} {\iGthree} {\iCm}{\iEb}{\iCm}}
+
+你任我憔 \Cm 悴 我任你枯 \Gm 萎 怎么也 \Cm 无法将天意挽 \Gthree 回
+你为我落 \Em 泪 更令我伤 \Bm 悲 放不开 \Em 刻骨 \E 铭心的滋 \A 味
+
+绵绵不 \Gthree 断的相思 \CM 化成这 \Am 一刻的心 \Em 碎 甜蜜往 \Am 事
+段段回 \Em 忆 只能在 \Am 梦中 \A 寻找和回 \D 味
+
+\Gthree 黑夜之中请你打开心扉 \Gthree 等待着我痴情的跟 \Dseven 随 若命运
+\Bm 对有情人 \Am 不愿怜惜 \Dseven 让爱来相 \Gthree 随
+
+倘若天 \Bm 意注定要 \Am 你我分离 \D 让------ \Fs 爱------ \F 永------
+\A 相------ \Gthree 陪
 
 \cleardoublepage 
 
